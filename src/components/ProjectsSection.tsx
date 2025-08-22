@@ -65,7 +65,7 @@ const ProjectsSection: React.FC = () => {
     {
       id: 1,
       title: "CA Consulting Firm",
-      description: "Modern e-commerce solution with React, Node.js, and advanced animations",
+      description: "A comprehensive solution for managing client relationships and project workflows. ",
       tech: ["React", "Node.js", "MongoDb", "Tailwind CSS","Responsive Design"],
       image: "/kkassociate.png",
       liveUrl: "https://kkassociate.com/",
@@ -83,12 +83,39 @@ const ProjectsSection: React.FC = () => {
     {
       id: 3,
       title: "Aagaur Studio",
-      description: "Improved lead quality and inquiries by offering a clear, curated view of our capabilities and a seamless path to connect with our team.",
-    tech: [ "React", "Node.js", "Tailwind Css", "Framer Motion","MongoDB","Responsive Design"],
+      description: "Aagaur Studio is a creative agency specializing in immersive digital experiences",
+          tech: [ "React", "Node.js", "Tailwind Css", "Framer Motion","MongoDB","Responsive Design"],
       image: "/aagaur.png",
       liveUrl: "https://aagaurstudio.com/",
       githubUrl: "#"
-    }
+    },
+    {
+      id: 4,
+      title: "Shree Krupa Jawanjal Hospital",
+      description: "A comprehensive healthcare solution designed to enhance patient experience and streamline hospital operations.",
+      tech: [ "React", "Node.js", "Tailwind Css", "Framer Motion","MongoDB","Responsive Design", "GSAP"],
+      image: "/shree-krupa-jawanjal.png",
+      liveUrl: "https://shree-krupa-jawanjal-hospital.onrender.com/",
+      githubUrl: "#"
+    },
+     {
+      id: 5,
+      title: "Swaranjali Hotel & Lawns",
+      description: "A hotel and lawns website showcasing services, team, and customer testimonials, along with room booking.",
+      tech: [ "React", "Node.js", "Tailwind Css", "Framer Motion","MongoDB","Responsive Design", "GSAP"],
+      image: "/swaranjali.png",
+      liveUrl: "https://swaranjali-brxo.onrender.com/",
+      githubUrl: "#"
+    },
+    {
+      id: 6,
+      title: "Dentist",
+      description: "A dental clinic website showcasing services, team, and patient testimonials.",
+      tech: [ "React", "Node.js", "Tailwind Css", "Framer Motion","MongoDB","Responsive Design", "GSAP"],
+      image: "/dentist.png",
+      liveUrl: "https://yadav-vvpm.onrender.com/",
+      githubUrl: "#"
+    } 
   ];
 
   return (
